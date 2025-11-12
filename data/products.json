@@ -1,0 +1,125 @@
+[ 
+  {
+    "id": 1762920639760,
+    "name": "Epson L121",
+    "category": "impresoras",
+    "price": 1600,
+    "description": "EcoTank (tanques recargables). Solo USB. bajo costo por impresión.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l121.jpeg"
+  },
+  {
+    "id": 1762834245019,
+    "name": "Epson L1250",
+    "category": "impresoras",
+    "price": 1800,
+    "description": "EcoTank. Wi-Fi y USB. Bajo costo, alto rendimiento y fácil recarga.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l1250.jpeg"
+  },
+  {
+    "id": 1762834586518,
+    "name": "Epson l3210",
+    "category": "impresoras",
+    "price": 1800,
+    "description": "Multifuncional EcoTank (imprime, copia, escanea). Solo USB. Ahorro y alto volumen.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l3210.jpeg"
+  },
+  {
+    "id": 1762834965845,
+    "name": "Epson L3250",
+    "category": "impresoras",
+    "price": 2000,
+    "description": "Multifuncional EcoTank con Wi-Fi. Imprime, copia, escanea. Máximo ahorro y conectividad.",
+    "stock": 20,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l3250.jpeg"
+  },
+  {
+    "id": 1762917929409,
+    "name": "Epson L4260",
+    "category": "impresoras",
+    "price": 2600,
+    "description": "Multifuncional EcoTank dúplex y Wi-Fi. Impresión automática a doble cara.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l4260.jpeg"
+  },
+  {
+    "id": 1762919047813,
+    "name": "Epson L5590",
+    "category": "impresoras",
+    "price": 3000,
+    "description": "EcoTank 4-en-1 (ADF, Fax, Wi-Fi, Ethernet). Ideal para oficinas con alto volumen de impresion.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l5590.jpeg"
+  },
+  {
+    "id": 1762919215067,
+    "name": "Epson L6270",
+    "category": "impresoras",
+    "price": 4500,
+    "description": "EcoTank dúplex, ADF, Wi-Fi. Impresión rápida y profesional a bajo costo.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l6270.jpeg"
+  },
+  {
+    "id": 1762919335579,
+    "name": "Epson L14150",
+    "category": "impresoras",
+    "price": 7500,
+    "description": "EcoTank A3 (ancho) con ADF y Fax. Inyección de tinta profesional y versátil.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l14150.jpeg"
+  },
+  {
+    "id": 1762919466775,
+    "name": "Epson L15150",
+    "category": "impresoras",
+    "price": 12500,
+    "description": "EcoTank A3, ADF/Dúplex y Ethernet. Alta velocidad y bajo costo para negocios.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l15150.jpeg"
+  },
+  {
+    "id": 1762920277911,
+    "name": "Epson L8160",
+    "category": "impresoras",
+    "price": 6200,
+    "description": "Fotográfica EcoTank 6 tintas. Impresión A4 profesional, CD/DVD, Dúplex. Calidad premium.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l8160.jpeg"
+  },
+  {
+    "id": 1762920429705,
+    "name": "Epson L8180",
+    "category": "impresoras",
+    "price": 10700,
+    "description": "Fotográfica EcoTank 6 tintas. Impresión A3+ y A4. Calidad, versatilidad y dúplex.",
+    "stock": 10,
+    "emoji": "📦",
+    "featured": false,
+    "image": "images/productos/epson-l8180.jpeg"
+  }
+]
+
+
