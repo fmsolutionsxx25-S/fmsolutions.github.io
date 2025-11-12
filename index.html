@@ -1,1 +1,83 @@
-<h1>coming soon!</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛍️FMsolutions</h1>
+            <p class="subtitle">Los mejores productos al mejor precio</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="filter-buttons" style="gap: 0.5rem;">
+                <button class="filter-btn active" data-category="todos">Todos</button>
+                <button class="filter-btn" data-category="impresoras">Impresoras</button>
+                <button class="filter-btn" data-category="laptops">Laptops</button>
+                <button class="filter-btn" data-category="monitores">Monitores</button>
+                <button class="filter-btn" data-category="proyectores">Proyectores</button>
+                <button class="filter-btn" data-category="accesorios">Accesorios</button>
+                <button class="filter-btn" data-category="consumibles">Consumibles</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar productos...">
+            </div>
+            <div class="cart-icon" onclick="toggleCart()">
+                🛒 Carrito
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products-grid" id="productsGrid"></div>
+
+        <div class="contact-section" id="contactSection">
+            <h2>📧 Contáctanos</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre Completo *</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico *</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje *</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-cart" onclick="toggleCart()">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-total" id="cartTotal">Total: $0.00</div>
+        <button class="checkout-btn" onclick="checkout()">Proceder al Pago</button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mi Tienda Online. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
